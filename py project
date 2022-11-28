@@ -1,0 +1,17 @@
+Hin=eval(input("How much marks did you get in Hindi?"))
+Mat=eval(input("How much marks did you get in Maths?"))
+Eng=eval(input("How much marks did you get in English?"))
+Sci=eval(input("How much marks did you get in Science?"))
+
+Avr=(Hin+Mat+Eng+Sci)/4
+
+print(Avr)
+if Avr>=100 and Avr <=0:
+    print("You should enter a valid value")
+elif Avr>=90 and Avr <=100:
+    print("You have achieved grade A")
+elif Avr>=80 and Avr<90:
+    print("You have achieved grade B")
+
+
+
